@@ -27,6 +27,8 @@ for (elem in user)
 // using forEach array method
 //syntax
 */
+
+/*
 let fruits = ['apple','mango','banana','strawberry','guava']
 
 fruits.forEach(function(x,y,z)
@@ -38,17 +40,16 @@ fruits.forEach(function(x,y,z)
       console.log(x)
   }
 })
-/*
+*/
+
 
 //Joining two arrays 
 let arr1=[1,4,9,10]
 let arr2=[3,5,9,11]
 let arrsum=[]
-//arrsum.concat(arr1,arr2)
-//console.log(arrsum)
+x=arrsum.concat(arr1,arr2)
+console.log(x)
 
-//can use also the push method
-arrsum.push(arr1,arr2)
-console.log(arrsum)
 
-*/
+
+
